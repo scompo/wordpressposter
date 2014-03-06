@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 
 import java.util.List;
 
-import it.scompo.wordpressposter.models.BlogInfo;
+import it.scompo.wordpressposter.mods.models.BlogInfo;
 
 import org.junit.After;
 import org.junit.Before;
@@ -44,7 +44,7 @@ public class TestBlogInfo {
 	}
 
 	/**
-	 * Test method for {@link it.scompo.wordpressposter.models.BlogInfo#getData()}.
+	 * Test method for {@link it.scompo.wordpressposter.mods.models.BlogInfo#getData()}.
 	 */
 	@Test
 	public void testGetData() {

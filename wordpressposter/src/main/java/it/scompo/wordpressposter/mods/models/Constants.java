@@ -1,7 +1,7 @@
 /**
  * Constants.java
  */
-package it.scompo.wordpressposter.models;
+package it.scompo.wordpressposter.mods.models;
 
 /**
  * Name constants.

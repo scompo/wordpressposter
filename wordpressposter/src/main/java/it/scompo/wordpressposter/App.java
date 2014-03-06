@@ -5,9 +5,9 @@ package it.scompo.wordpressposter;
 
 import java.net.URL;
 
-import it.scompo.wordpressposter.models.BlogInfo;
-import it.scompo.wordpressposter.models.Post;
 import it.scompo.wordpressposter.mods.ProperiesReader;
+import it.scompo.wordpressposter.mods.models.BlogInfo;
+import it.scompo.wordpressposter.mods.models.Post;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

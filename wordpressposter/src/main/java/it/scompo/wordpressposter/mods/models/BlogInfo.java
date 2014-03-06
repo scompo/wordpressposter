@@ -1,7 +1,7 @@
 /**
  * BlogInfo.java
  */
-package it.scompo.wordpressposter.models;
+package it.scompo.wordpressposter.mods.models;
 
 import java.util.ArrayList;
 import java.util.List;

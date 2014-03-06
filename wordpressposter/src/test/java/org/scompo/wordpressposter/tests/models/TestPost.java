@@ -8,9 +8,9 @@ import static org.junit.Assert.*;
 import java.util.List;
 import java.util.Map;
 
-import it.scompo.wordpressposter.models.BlogInfo;
-import it.scompo.wordpressposter.models.Constants;
-import it.scompo.wordpressposter.models.Post;
+import it.scompo.wordpressposter.mods.models.BlogInfo;
+import it.scompo.wordpressposter.mods.models.Constants;
+import it.scompo.wordpressposter.mods.models.Post;
 
 import org.junit.After;
 import org.junit.Before;
@@ -55,7 +55,7 @@ public class TestPost {
 	}
 
 	/**
-	 * Test method for {@link it.scompo.wordpressposter.models.Post#getData()}.
+	 * Test method for {@link it.scompo.wordpressposter.mods.models.Post#getData()}.
 	 */
 	@SuppressWarnings("unchecked")
 	@Test
