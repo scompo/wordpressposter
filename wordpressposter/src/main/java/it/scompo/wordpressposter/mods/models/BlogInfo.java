@@ -110,7 +110,7 @@ public class BlogInfo{
 		data.add(blogId);
 		data.add(username);
 		data.add(password);
-		logger.debug("Returning :" + data);
+		//logger.debug("Returning :" + data);
 		return data;
 	}
 

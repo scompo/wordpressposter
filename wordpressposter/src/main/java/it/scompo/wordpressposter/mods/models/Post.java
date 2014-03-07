@@ -71,7 +71,7 @@ public class Post {
 	}
 	
 	public List<Object> getData(){
-		logger.info("Called getData");
+		//logger.info("Called getData");
 		List<Object> res = info.getData();
 		Map<Object, Object> data = new HashMap<Object, Object>();
 		data.put(Constants.NAME_POST_AUTHOR, postAuthor);
@@ -79,7 +79,7 @@ public class Post {
 		data.put(Constants.NAME_POST_TITLE, postTitle);
 		data.put(Constants.NAME_POST_CONTENT, postContent);
 		res.add(data);
-		logger.debug("returning " +res);
+		//logger.debug("returning " +res);
 		return res;
 	}
 
